@@ -3,22 +3,357 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Valogeo - AI-Powered Content Commerce Solution</title>
-    <meta name="description" content="Valogeo - AI-Powered Content Commerce Solution Built for Joint Ventures. Singapore-based, AI-native, Partnership-first.">
+    <title>Fantastic Fusion - Empowering Global Brands</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sections.css">
-    <link rel="stylesheet" href="css/sections2.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 </head>
 <body>
-    <div id="app"></div>
-    <script src="js/data.js"></script>
-    <script src="js/components.js"></script>
-    <script src="js/animations.js"></script>
-    <script src="js/app.js"></script>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="header-inner">
+            <a href="#" class="logo">
+                <img src="assets/images/logo.png" alt="Fantastic Fusion">
+            </a>
+            <nav class="nav">
+                <a href="#" class="nav-link">Products</a>
+                <a href="#" class="nav-link">Partners</a>
+                <a href="#help-center" class="nav-link">Help Center</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#about" class="nav-link">About</a>
+            </nav>
+            <a href="#" class="btn-signin">Sign in</a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="assets/images/hero-bg.jpg" alt="" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Empowering global brands to <br>craft the next-gen digital experiences.</h1>
+            <div class="search-bar">
+                <svg class="search-star" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 2L19.5 12.5L30 16L19.5 19.5L16 30L12.5 19.5L2 16L12.5 12.5L16 2Z" fill="#FFD700"/>
+                </svg>
+                <input type="text" placeholder="Describe your company in a sentence or two..." class="search-input">
+                <button class="search-btn" aria-label="Send">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 19V5M12 5L5 12M12 5L19 12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="category-tags">
+                <span class="tag">Apparel</span>
+                <span class="tag">Beauty&Wellness</span>
+                <span class="tag">Electronics</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partner-Customer Achievements -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <h2 class="section-title">Partenr-Customer Achievements</h2>
+            <p class="section-subtitle">Beijing Zhidemai Technology Co., Ltd. (ZHI-Tech) is an Al-drivern digital consumption service group founded in 2011 and listed in 2019.<br>Its mission is to "bring happiness to every consumption" by connecting e-commerce platforms, brands, and users through three core segments: consumptiion content, smart marketing, and consumption data.</p>
+            <div class="achievements-card">
+                <h3 class="achievements-card-title">Key Achievements with Fantastic Fusion Al &amp; Saas Suppoort</h3>
+                <p class="achievements-card-desc">Leveraging Fantastic Fusion Al-power and a scalable Saas platform, ZHI-Tech Group has accelerated innovationand global expansion. Notable outcomes include:</p>
+                <div class="achievements-grid">
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="7" width="24" height="16" rx="2" stroke="#2563EB" stroke-width="1.5"/>
+                                <path d="M9 13h12M9 17h8" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="achievement-text">
+                            <h4>Massive Database</h4>
+                            <p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="15" cy="15" r="10" stroke="#2563EB" stroke-width="1.5"/>
+                                <path d="M15 9v6l4 2" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="achievement-text">
+                            <h4>Massive Database</h4>
+                            <p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 24l6-8 4 4 8-12" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="achievement-text">
+                            <h4>Massive Database</h4>
+                            <p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p>
+                        </div>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">
+                            <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="5" y="5" width="20" height="20" rx="3" stroke="#2563EB" stroke-width="1.5"/>
+                                <path d="M10 15h10M15 10v10" stroke="#2563EB" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div class="achievement-text">
+                            <h4>Massive Database</h4>
+                            <p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievements-summary">
+                    <p>This synergy of Al and SaaS technologies positions ZHI-Tech as a leader in reshaping global digital consumption ecosystems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Help Center -->
+    <section class="help-center" id="help-center">
+        <div class="container">
+            <h2 class="section-title">Help Center</h2>
+            <div class="tabs">
+                <button class="tab active" data-tab="0">
+                    <span>Strategic Management & Industry Insight</span>
+                </button>
+                <button class="tab" data-tab="1">
+                    <span>Content Creation & Intelligent Marketing</span>
+                </button>
+                <button class="tab" data-tab="2">
+                    <span>Saas Platform Hands-on Training & Operations</span>
+                </button>
+                <button class="tab" data-tab="3">
+                    <span>Global Growth & Ecosystem Expansion</span>
+                </button>
+            </div>
+            <div class="tab-content-wrapper">
+                <div class="tab-panel active" data-panel="0">
+                    <h3 class="tab-panel-title">Strategic Management & Industry Insight</h3>
+                    <div class="help-grid">
+                        <div class="help-card">
+                            <div class="help-card-accent"></div>
+                            <div class="help-card-body">
+                                <h4>Massive Database</h4>
+                                <p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p>
+                            </div>
+                        </div>
+                        <div class="help-card">
+                            <div class="help-card-accent"></div>
+                            <div class="help-card-body">
+                                <h4>Ecosystem Operation</h4>
+                                <p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p>
+                            </div>
+                        </div>
+                        <div class="help-card">
+                            <div class="help-card-accent"></div>
+                            <div class="help-card-body">
+                                <h4>Industry Management</h4>
+                                <p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p>
+                            </div>
+                        </div>
+                        <div class="help-card">
+                            <div class="help-card-accent"></div>
+                            <div class="help-card-body">
+                                <h4>Product Selection Skills</h4>
+                                <p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-panel" data-panel="1">
+                    <h3 class="tab-panel-title">Content Creation & Intelligent Marketing</h3>
+                    <div class="help-grid">
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Massive Database</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Ecosystem Operation</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Industry Management</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Product Selection Skills</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                    </div>
+                </div>
+                <div class="tab-panel" data-panel="2">
+                    <h3 class="tab-panel-title">Saas Platform Hands-on Training & Operations</h3>
+                    <div class="help-grid">
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Massive Database</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Ecosystem Operation</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Industry Management</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Product Selection Skills</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                    </div>
+                </div>
+                <div class="tab-panel" data-panel="3">
+                    <h3 class="tab-panel-title">Global Growth & Ecosystem Expansion</h3>
+                    <div class="help-grid">
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Massive Database</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Ecosystem Operation</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Industry Management</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                        <div class="help-card"><div class="help-card-accent"></div><div class="help-card-body"><h4>Product Selection Skills</h4><p>Built a massive product and content database with 10 billion+ SKUs and 12 billion+ content pieces.</p></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="blog" id="blog">
+        <div class="container">
+            <h2 class="section-title">Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-thumb"><img src="assets/images/blog-01.jpg" alt="Blog post"></div>
+                    <div class="blog-body">
+                        <h3 class="blog-title">Dropshipping for Beginners in 2025: Proven Business Tips to E...</h3>
+                        <p class="blog-meta">By Maple . Nov 06, 2025</p>
+                        <div class="blog-tags"><span>dropshipping tips</span><span>ai dropshipping</span></div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-thumb"><img src="assets/images/blog-02.jpg" alt="Blog post"></div>
+                    <div class="blog-body">
+                        <h3 class="blog-title">Dropshipping for Beginners in 2025: Proven Business Tips to E...</h3>
+                        <p class="blog-meta">By Maple . Nov 06, 2025</p>
+                        <div class="blog-tags"><span>dropshipping tips</span><span>ai dropshipping</span></div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-thumb"><img src="assets/images/blog-03.jpg" alt="Blog post"></div>
+                    <div class="blog-body">
+                        <h3 class="blog-title">Dropshipping for Beginners in 2025: Proven Business Tips to E...</h3>
+                        <p class="blog-meta">By Maple . Nov 06, 2025</p>
+                        <div class="blog-tags"><span>dropshipping tips</span><span>ai dropshipping</span></div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-thumb"><img src="assets/images/blog-01.jpg" alt="Blog post"></div>
+                    <div class="blog-body">
+                        <h3 class="blog-title">Dropshipping for Beginners in 2025: Proven Business Tips to E...</h3>
+                        <p class="blog-meta">By Maple . Nov 06, 2025</p>
+                        <div class="blog-tags"><span>dropshipping tips</span><span>ai dropshipping</span></div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-thumb"><img src="assets/images/blog-02.jpg" alt="Blog post"></div>
+                    <div class="blog-body">
+                        <h3 class="blog-title">Dropshipping for Beginners in 2025: Proven Business Tips to E...</h3>
+                        <p class="blog-meta">By Maple . Nov 06, 2025</p>
+                        <div class="blog-tags"><span>dropshipping tips</span><span>ai dropshipping</span></div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-thumb"><img src="assets/images/blog-03.jpg" alt="Blog post"></div>
+                    <div class="blog-body">
+                        <h3 class="blog-title">Dropshipping for Beginners in 2025: Proven Business Tips to E...</h3>
+                        <p class="blog-meta">By Maple . Nov 06, 2025</p>
+                        <div class="blog-tags"><span>dropshipping tips</span><span>ai dropshipping</span></div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-thumb"><img src="assets/images/blog-01.jpg" alt="Blog post"></div>
+                    <div class="blog-body">
+                        <h3 class="blog-title">Dropshipping for Beginners in 2025: Proven Business Tips to E...</h3>
+                        <p class="blog-meta">By Maple . Nov 06, 2025</p>
+                        <div class="blog-tags"><span>dropshipping tips</span><span>ai dropshipping</span></div>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-thumb"><img src="assets/images/blog-02.jpg" alt="Blog post"></div>
+                    <div class="blog-body">
+                        <h3 class="blog-title">Dropshipping for Beginners in 2025: Proven Business Tips to E...</h3>
+                        <p class="blog-meta">By Maple . Nov 06, 2025</p>
+                        <div class="blog-tags"><span>dropshipping tips</span><span>ai dropshipping</span></div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-text">
+                <p>On the global business stage, the most exciting breakthroughs never stem from a single technological disruption, but from&nbsp;fantastic fusion.<br>
+                This is the very reason for the birth of FANTASTICFUSION.<br>
+                We were born at a unique intersection: on one side, a mature, proven "content e-commerce + AI" success model from the East, validated by hundreds of millions of users and trillions in transactions;<br>
+                On the other, a diverse global market hungry for intelligent growth solutions.</p>
+                <p>But we are not mere transporters. We are experienced architects. Our work involves a reshaping of strategic logic: "deconstructing" the core capabilities of our parent company into their essential growth logic, then "reconstructing" them with Singapore's global perspective and Silicon Valley's product spirit, fusing them into a lightweight, intelligent,<br>
+                globally deployable SaaS empowerment ecosystem.</p>
+            </div>
+        </div>
+        <div class="about-collage">
+            <div class="collage-item ci-1"><img src="assets/images/about-01.jpg" alt="Team"></div>
+            <div class="collage-item ci-2"><img src="assets/images/about-02.jpg" alt="Team"></div>
+            <div class="collage-item ci-3"><img src="assets/images/about-03.jpg" alt="Team"></div>
+            <div class="collage-item ci-4"><img src="assets/images/about-04.jpg" alt="Team"></div>
+            <div class="collage-item ci-5"><img src="assets/images/about-05.jpg" alt="Team"></div>
+            <div class="collage-item ci-6"><img src="assets/images/about-06.jpg" alt="Team"></div>
+            <div class="collage-item ci-7"><img src="assets/images/about-07.jpg" alt="Team"></div>
+            <div class="collage-item ci-8"><img src="assets/images/about-08.jpg" alt="Team"></div>
+            <div class="collage-item ci-9"><img src="assets/images/about-09.jpg" alt="Team"></div>
+            <div class="collage-item ci-10"><img src="assets/images/about-10.jpg" alt="Team"></div>
+            <div class="collage-item ci-11"><img src="assets/images/about-11.jpg" alt="Team"></div>
+            <div class="collage-item ci-12"><img src="assets/images/about-12.jpg" alt="Team"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Fantastic Fusion">
+                </div>
+                <div class="footer-columns">
+                    <div class="footer-col">
+                        <h4>Legals</h4>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Resources</h4>
+                        <a href="#">Help Center</a>
+                        <a href="#">Partners</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>English
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M3 5l3 3 3-3" stroke="#999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </h4>
+                    </div>
+                </div>
+                <a href="#" class="footer-contact">
+                    <span>Contact us</span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 4l4 4-4 4" stroke="#999" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+            </div>
+            <div class="footer-divider"></div>
+            <div class="footer-bottom">
+                <span class="copyright">&copy; Fantastic Fusion. 2025</span>
+                <div class="footer-right">
+                    <a href="#" class="footer-bottom-link">Contact us</a>
+                    <span class="footer-vdivider"></span>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a>
+                        <a href="#" aria-label="Twitter"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg></a>
+                        <a href="#" aria-label="LinkedIn"><svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="white" stroke="none"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
